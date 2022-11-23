@@ -14,9 +14,10 @@ export function userTelegram() {
         tg.MainButton.show();
       }
       }
+
 return {
-    onToggleButton,
     onClose,
+    onToggleButton,
     tg, 
     user: tg.initDataUnsafe?.user,
 }
